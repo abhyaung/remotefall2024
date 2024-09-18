@@ -7,3 +7,5 @@ This is a sample repo for the class
 ###test2
 
 ###test3
+
+###index.html file added

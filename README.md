@@ -12,5 +12,3 @@ This is a sample repo for the class
 
 ##First change on abhyaungbranch
 
-##Second change on abhyaungbranch
-

@@ -10,8 +10,5 @@ This is a sample repo for the class
 
 ###index.html file added
 
-Change made on main branch
+##First change on abhyaungbranch
 
-Change made on abhyaungdevelop branch
-
-1. Change made on main branch

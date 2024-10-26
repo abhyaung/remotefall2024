@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MidtermAbhyaung</string>
+    <string name="area">Area</string>
+    <string name="calculate_area">Calculate Area</string>
+    <string name="radius">Radius</string>
+    <string name="enter_radius">Enter radius to get the area of circle:</string>
+    <string name="reset">Reset</string>
+</resources>

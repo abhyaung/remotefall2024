@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f0f0f0">
+
+    <!-- Input field for radius -->
+    <TextView
+        android:id="@+id/radiusPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_radius"
+        android:textSize="22sp"
+        android:textColor="#333"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/radiusInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiusPrompt"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/radius"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" />
+
+    <!-- Button to calculate area -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiusInput"
+        android:layout_marginTop="18dp"
+        android:text="@string/calculate_area"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculateButton"
+        android:layout_marginTop="8dp"
+        android:text="@string/reset"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resetButton"
+        android:layout_marginTop="15dp"
+        android:text="@string/area"
+        android:textSize="20sp"
+        android:textColor="#333"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
